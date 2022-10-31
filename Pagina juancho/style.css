@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	background: #e8e8e8;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	
+	min-height: 100vh;
+	flex-wrap: wrap;
+}
+
+.menu{
+	background: #00ff6a;
+}
+
+.menu li a{
+	
+	text-decoration: none;
+	color: white;
+	padding: 20px 50px;
+	display: block;
+margin: 10px;
+
+ }
+
+.menu li{
+	display: inline-block;
+	
+}
+
+.menu li a{
+	
+	background: #00b84c;
+}
+ 
+
+.Logo{
+width: 250px;
+height: 150px;
+}
+
+
+/*Barra de busqueda*/
+
+.searchinterior {
+
+	position: absolute;
+  border: 3px solid #000000;
+  padding: 5px;
+  padding-left: 50px;
+  height: 50px;
+  border-radius: 5px  5px;
+  outline: none;
+  color: #000000;
+  top: 174px;
+  left: 1600px;
+}
+
+
+/*Cajas 1 y 2*/
+
+.Caja1 {
+
+background-color: transparent;
+width: 1500px;
+height: 700px;
+
+
+}
+
+.Caja2 {
+
+	background-color: #00ff6a;
+	width: 200px;
+	height: 100px;
+display: flex;
+
+	}
+
+
+
+
+
+
+/*Footer*/
+
+*{
+
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	align-self: flex-end;
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #00ff6a;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+/*responsive Footer*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
